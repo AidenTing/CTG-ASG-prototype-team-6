@@ -35,6 +35,7 @@ Features
 ---
 
 File Structure
+```
 bitcoin-prototype/
 │
 ├── keys.py # ECC key generation
@@ -44,7 +45,7 @@ bitcoin-prototype/
 ├── main.py # Demo / test run
 ├── requirements.txt # Python dependencies
 └── README.md # Project explanation
-
+```
 
 ---
 
