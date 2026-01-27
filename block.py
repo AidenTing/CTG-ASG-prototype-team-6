@@ -29,3 +29,4 @@ class Block:
             if hash_result.startswith("0" * difficulty):
                 return hash_result
             self.nonce += 1
+
