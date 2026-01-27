@@ -13,7 +13,7 @@ class Transaction:
     def transaction_data(self):
         return f"{self.sender_pub}{self.receiver_pub}{self.amount}".encode()
 
-#Use Ecdsa to sign transaction
+#Use ECDSA to sign transaction
     def sign_transaction(self, sender_private_key):
         self.signature = sender_private_key.sign(self.transaction_data())
 
