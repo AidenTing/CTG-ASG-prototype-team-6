@@ -1,4 +1,4 @@
-#For key gen using ECC
+#For key gen using ECC/ECDSA
 from ecdsa import SigningKey, SECP256k1
 
 class KeyPair:
